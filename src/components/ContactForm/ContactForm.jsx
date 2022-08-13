@@ -13,14 +13,14 @@ export class ContactForm extends Component {
   }
 
   handleAddContact = (e) => {
-      e.preventDefault();
-      this.props.onSubmit({...this.state,  id: nanoid()});
-      this.resetForm();
+    e.preventDefault();
+    this.props.onSubmit({...this.state,  id: nanoid()});
+    this.resetForm();
   }
 
-    resetForm = () => {
-        this.setState({ name: '', number: '' })
-    }
+  resetForm = () => {
+    this.setState({ name: '', number: '' })
+  }
 
  render() {
     return (

@@ -1,11 +1,9 @@
 import styled from "@emotion/styled";
 
 export const List = styled.ul`
-    /* margin-top: 8px;     */
     color:#1F4E49;
     font-size: large;
 `
-
 export const ListItem = styled.li`
     display: flex;
     margin-top: 4px;
@@ -19,11 +17,8 @@ export const ListItem = styled.li`
     :focus{
         border-color: #FF931E;
         background-color: #CCEBE8;
-}
+    }
 `
-    
-
-
 export const Text = styled.span`
     padding:  8px;
  `
