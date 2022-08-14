@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const Label = styled.label`
     display: flex;
-    padding: 4px 8px;
+    padding: 8px;
     height: 20px;
     background-color: #CCEBE8;
     justify-content: space-between;
