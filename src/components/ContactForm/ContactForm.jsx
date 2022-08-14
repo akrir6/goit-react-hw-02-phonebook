@@ -1,7 +1,12 @@
+import PropTypes from "prop-types";
 import { Component } from "react";
 import {nanoid} from "nanoid"
 import { Input, Label, Button, Form } from "./ContactForm.styled";
 export class ContactForm extends Component {
+  static propTypes = {
+    onSubmit: PropTypes.func.isRequired,
+  }
+
  state = {
     name: '',
     number: '',
